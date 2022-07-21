@@ -10,5 +10,7 @@ public class Main {
             System.out.print("Ваш баланс: " + (var_num + x));
             System.out.print("\nКоличество бонусных баллов на счету: " + (var_num + x)/100);
         }
+        else {System.out.print("Ваш баланс: " + (var_num + x));
+            System.out.print("\nКоличество бонусных баллов на счету: " + var_num/100);}
     }
 }
